@@ -14,10 +14,10 @@
 		<java.version>1.6</java.version>
 		<maven-compiler-plugin.version>3.6.0</maven-compiler-plugin.version>
 		<maven-ejb-plugin.version>3.0.1</maven-ejb-plugin.version>
-		
 	</properties>
 
 	<modules>
+		<module>sample-commons</module>
 		<module>sample-ear</module>
 		<module>sample-ejb</module>
 		<module>sample-web</module>

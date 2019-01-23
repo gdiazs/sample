@@ -8,8 +8,6 @@
         http://www.springframework.org/schema/context/spring-context-4.2.xsd">
 
 
-	<context:component-scan base-package="io.gdiazs.othercontext" />
-	<!-- Cuando los archivos de configuración de spring están en otro jar se hace a través de classpath -->
-	<import resource="classpath:commons-context.xml" />
+	<context:component-scan base-package="io.gdiazs.sample.commons" />
 
 </beans>

@@ -10,13 +10,21 @@
         http://www.springframework.org/schema/context 
         http://www.springframework.org/schema/context/spring-context-4.2.xsd">
 
+	<!-- 
+		@Autor: Guillermo B Díaz Solís
+		Plantilla de proyecto Spring 4 para Java 6 con xml
+	 -->
+
 	<mvc:annotation-driven />
 
-	<context:component-scan
-		base-package="io.gdiazs.sample" />
+	<context:component-scan	base-package="io.gdiazs.sample" />
+		
+	<!-- 
+		Cuando las configuraciones adicionales a "Este archivo que es importado en el web.xml" están dentro de WEB-INF se hace de forma relative sin agregar "WEB-IN/etc/etc "
 		
 		
-    <import resource="config/service-context.xml"/>
+	 -->
+    <import resource="config/service-context.xml"/> <!-- Referencia relativa -->
 
 
 
